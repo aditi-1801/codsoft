@@ -25,7 +25,7 @@ public class random_num{
                     {
                         score++;
                         System.out.println("Congrats!!! you guessed the number "+n+" in " +c+ " attempts\n");
-                    }
+                    }        
                 }
                 else if(l==5 && (g>n || g<n))
                 {
@@ -48,9 +48,7 @@ public class random_num{
             System.out.println(round+"\t"+score);
         }
         else
-        {
             System.out.println("invalid input");
-        }    
         sc.close();
     }
 }
